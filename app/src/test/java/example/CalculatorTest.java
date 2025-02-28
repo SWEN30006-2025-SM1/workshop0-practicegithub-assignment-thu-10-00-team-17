@@ -1,4 +1,4 @@
-package example;
+    package example;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -25,4 +25,4 @@ public class CalculatorTest {
     public void testDivideBasic() {
         Assert.assertEquals(5, calculator.divide(10, 2), 0.5);
     }
-}
+} //test
